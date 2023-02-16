@@ -32,7 +32,7 @@ export function SignUp() {
             type="password"
           />
 
-          <Button title="Entrar" />
+          <Button title="Criar conta" />
 
           <a href="#">Já tenho uma conta</a>
         </div>
