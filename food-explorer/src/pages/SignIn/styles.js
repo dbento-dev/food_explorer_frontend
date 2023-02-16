@@ -46,10 +46,10 @@ export const Form = styled.form`
       margin-bottom: 8px;
     }
 
-    > div {
+    /* > div {
       background-color: transparent;
       border: 1px solid ${({ theme }) => theme.COLORS.LIGHT_100};
-    }
+    } */
 
     > button {
       margin-top: 32px;
