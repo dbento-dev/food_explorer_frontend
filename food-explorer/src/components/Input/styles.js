@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  /* width: 100%; */
+  width: 100%;
   height: 48px;
 
   display: flex;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 
     padding: 12px;
 
-    color: ${({ theme }) => theme.COLORS.LIGHT_500};
+    color: ${({ theme }) => theme.COLORS.LIGHT_100};
     background-color: transparent;
     border: 0;
 

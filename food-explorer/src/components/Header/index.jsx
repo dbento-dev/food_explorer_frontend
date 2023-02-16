@@ -2,6 +2,8 @@ import logoSVG from '../../assets/logo.svg'
 
 import { FiLogOut, FiSearch } from 'react-icons/fi'
 
+import { TfiReceipt } from 'react-icons/tfi'
+
 import { Container, ExplorerLogo, Logout } from './styles'
 import { Input } from '../Input'
 import { Button } from '../Button'
@@ -18,7 +20,8 @@ export function Header() {
           placeholder="Busque por pratos ou ingredientes"
           icon={FiSearch}
         />
-        {/* <Button title="Pedidos" /> */}
+
+        <Button title="Pedidos (0)" icon={TfiReceipt} />
 
         <Logout>
           <FiLogOut />

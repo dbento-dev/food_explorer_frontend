@@ -13,8 +13,26 @@ export const Container = styled.header`
   padding: 0 126px;
 
   background-color: ${({ theme }) => theme.COLORS.DARK_700};
+
+  > div:first-child {
+    width: 250px;
+  }
+
+  > div:nth-child(2) {
+    width: calc(100% - 250px);
+  }
+
+  > button:nth-child(3) {
+    width: 200px;
+  }
+
+  > button:last-child {
+    width: 40px;
+  }
 `
 export const ExplorerLogo = styled.div`
+  width: 100%;
+  height: 48px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -33,6 +51,12 @@ export const ExplorerLogo = styled.div`
 `
 
 export const Logout = styled.button`
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: none;
   background: none;
 
