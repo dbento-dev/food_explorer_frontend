@@ -29,6 +29,10 @@ export default {
     GREEN_100: '#04D361',
 
     BLUE_100: '#82F3FF',
-    BLUE_200: '#065E7C'
+    BLUE_200: '#065E7C',
+
+    GRADIENT_100:
+      'linear-gradient(90deg, rgba(0, 10, 15, 0.272541) 0%, #000A0F 100%);',
+    GRADIENT_200: 'linear-gradient(180deg, #091E26 0%, #00131C 100%)'
   }
 }
