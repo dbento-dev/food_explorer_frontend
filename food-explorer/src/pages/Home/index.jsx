@@ -3,6 +3,8 @@ import { Section } from '../../components/Section'
 import { Container, Content, Banner } from './styles'
 
 import bannerSVG from '../../assets/banner.svg'
+import maskGroup3Png from '../../assets/mask-group-3.png'
+import { Card } from '../../components/Card'
 
 export function Home() {
   return (
@@ -21,7 +23,32 @@ export function Home() {
           </Banner>
 
           <Section title="Refeições">
-            <button>Teste</button>
+            <div>
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe"
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe"
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe"
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe"
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+              />
+            </div>
           </Section>
         </Content>
       </main>

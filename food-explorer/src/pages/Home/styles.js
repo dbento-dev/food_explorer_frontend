@@ -28,6 +28,16 @@ export const Content = styled.div`
   flex-direction: column;
 
   padding: 0 126px;
+
+  > section {
+    > div {
+      width: 100%;
+      display: flex;
+      gap: 27px;
+
+      overflow-x: auto;
+    }
+  }
 `
 
 export const Banner = styled.div`
