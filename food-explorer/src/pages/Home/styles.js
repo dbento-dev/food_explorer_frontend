@@ -29,15 +29,16 @@ export const Content = styled.div`
 
   padding: 0 126px;
 
-  > section {
+  /* > section {
     > div {
       width: 100%;
       display: flex;
       gap: 27px;
 
       overflow-x: auto;
+      overflow-y: hidden;
     }
-  }
+  } */
 `
 
 export const Banner = styled.div`
@@ -82,5 +83,74 @@ export const Banner = styled.div`
       color: ${({ theme }) => theme.COLORS.LIGHT_300};
       font-family: 'Roboto', sans-serif;
     }
+  }
+`
+
+export const Slider = styled.div`
+  position: relative;
+  /* padding: 15px; */
+  /* max-width: 640px; */
+  margin: 0 auto;
+
+  .gallery-wrapper {
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  }
+
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 27px;
+  }
+
+  .btn-left,
+  .btn-right {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 60px;
+    line-height: 250px;
+    text-align: center;
+    border: none;
+    color: ${({ theme }) => theme.COLORS.LIGHT_100};
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+
+    opacity: 0.1;
+
+    transition: all 600ms ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .btn-right {
+    top: 0;
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+
+  .item {
+    /* width: 100%;
+    height: 100%; */
+    flex-shrink: 0;
+
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+  }
+
+  .current-item {
+    opacity: 1;
   }
 `

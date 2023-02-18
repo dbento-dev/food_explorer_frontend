@@ -1,12 +1,31 @@
 import { Header } from '../../components/Header'
 import { Section } from '../../components/Section'
-import { Container, Content, Banner } from './styles'
+import { Container, Content, Banner, Slider } from './styles'
 
 import bannerSVG from '../../assets/banner.svg'
+
+import maskGroup from '../../assets/mask-group.png'
+import maskGroup1Png from '../../assets/mask-group-1.png'
 import maskGroup3Png from '../../assets/mask-group-3.png'
+
 import { Card } from '../../components/Card'
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
+import { useRef, useState } from 'react'
 
 export function Home() {
+  const slider = useRef(null)
+  function handleLeftClick(e) {
+    e.preventDefault()
+
+    slider.current.scrollLeft -= slider.current.offsetWidth
+  }
+
+  function handleRightClick(e) {
+    e.preventDefault()
+
+    slider.current.scrollLeft += slider.current.offsetWidth
+  }
+
   return (
     <Container>
       <Header />
@@ -23,32 +42,81 @@ export function Home() {
           </Banner>
 
           <Section title="Refeições">
-            <div>
-              <Card
-                logo={maskGroup3Png}
-                title="Spaguetti Gambe"
-                description="Massa fresca com camarões e pesto."
-                price="R$ 29,90"
-              />
-              <Card
-                logo={maskGroup3Png}
-                title="Spaguetti Gambe"
-                description="Massa fresca com camarões e pesto."
-                price="R$ 29,90"
-              />
-              <Card
-                logo={maskGroup3Png}
-                title="Spaguetti Gambe"
-                description="Massa fresca com camarões e pesto."
-                price="R$ 29,90"
-              />
-              <Card
-                logo={maskGroup3Png}
-                title="Spaguetti Gambe"
-                description="Massa fresca com camarões e pesto."
-                price="R$ 29,90"
-              />
-            </div>
+            <Slider>
+              <button className="btn-left control" onClick={handleLeftClick}>
+                <FiChevronLeft size={50} />
+              </button>
+              <button className="btn-right control" onClick={handleRightClick}>
+                <FiChevronRight size={50} />
+              </button>
+              <div className="gallery-wrapper" ref={slider}>
+                <div className="gallery">
+                  <Card
+                    logo={maskGroup}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup1Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup3Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup1Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup3Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup1Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                  <Card
+                    logo={maskGroup3Png}
+                    title="Spaguetti Gambe "
+                    description="Massa fresca com camarões e pesto."
+                    price="R$ 29,90"
+                    className="item"
+                  />
+                </div>
+              </div>
+            </Slider>
           </Section>
         </Content>
       </main>

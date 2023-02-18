@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 304px;
-  height: 460px;
+  height: 465px;
 
   background-color: ${({ theme }) => theme.COLORS.DARK_200};
 
