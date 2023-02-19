@@ -88,69 +88,51 @@ export const Banner = styled.div`
 
 export const Slider = styled.div`
   position: relative;
-  /* padding: 15px; */
-  /* max-width: 640px; */
-  margin: 0 auto;
 
-  .gallery-wrapper {
+  > .carousel {
+    display: flex;
     overflow-x: auto;
+    scroll-behavior: smooth;
+
+    gap: 27px;
 
     &::-webkit-scrollbar {
       display: none;
+    }
 
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+    .item {
+      flex: none;
     }
   }
 
-  .gallery {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 27px;
-  }
-
-  .btn-left,
+  > .btn-left,
   .btn-right {
-    z-index: 5;
     position: absolute;
+    z-index: 5;
+
     top: 0;
     left: 0;
     right: auto;
     bottom: 0;
-    width: 60px;
-    line-height: 250px;
-    text-align: center;
+
+    background-color: transparent;
     border: none;
-    color: ${({ theme }) => theme.COLORS.LIGHT_100};
     cursor: pointer;
+
+    color: ${({ theme }) => theme.COLORS.LIGHT_100};
     background: linear-gradient(to left, transparent 0%, black 200%);
-
     opacity: 0.1;
-
-    transition: all 600ms ease-in-out;
+    transition: all 500ms ease-in-out;
 
     &:hover {
       opacity: 1;
     }
   }
 
-  .btn-right {
-    top: 0;
+  > .btn-right {
     left: auto;
     right: 0;
+
     background: linear-gradient(to right, transparent 0%, black 200%);
-  }
-
-  .item {
-    /* width: 100%;
-    height: 100%; */
-    flex-shrink: 0;
-
-    opacity: 0.6;
-    transition: all 600ms ease-in-out;
-  }
-
-  .current-item {
-    opacity: 1;
   }
 `
