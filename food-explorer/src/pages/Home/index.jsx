@@ -10,20 +10,31 @@ import maskGroup3Png from '../../assets/mask-group-3.png'
 
 import { Card } from '../../components/Card'
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 export function Home() {
   const slider = useRef(null)
+
   function handleLeftClick(e) {
     e.preventDefault()
 
-    slider.current.scrollLeft -= slider.current.offsetWidth
+    if (!Math.abs(slider.current.scrollLeft) < 1) {
+      slider.current.scrollLeft -= slider.current.offsetWidth
+    }
   }
 
   function handleRightClick(e) {
     e.preventDefault()
 
-    slider.current.scrollLeft += slider.current.offsetWidth
+    if (
+      Math.abs(
+        slider.current.scrollLeft +
+          slider.current.offsetWidth -
+          slider.current.scrollWidth
+      ) > 1
+    ) {
+      slider.current.scrollLeft += slider.current.offsetWidth
+    }
   }
 
   return (
