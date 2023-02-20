@@ -349,8 +349,8 @@ export function Home() {
             </Slider>
           </Section>
         </Content>
-        <Footer />
       </main>
+      <Footer />
     </Container>
   )
 }

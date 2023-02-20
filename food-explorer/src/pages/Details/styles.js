@@ -6,25 +6,33 @@ export const Container = styled.div`
 
   display: grid;
 
-  grid-template-rows: 114px auto;
+  grid-template-rows: 104px auto 75px;
 
   grid-template-areas:
     'header'
-    'content';
+    'content'
+    'footer';
 
   > main {
     grid-area: content;
     overflow-y: auto;
 
-    padding: 24px 0px;
+    padding: 30px 0px;
+  }
+
+  > footer {
+    grid-area: footer;
+    display: flex;
   }
 `
 export const Content = styled.div`
-  max-width: 1120px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+
   gap: 42px;
+
+  padding: 0 126px;
 
   > button:first-child {
     align-self: flex-start;

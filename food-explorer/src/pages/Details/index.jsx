@@ -5,6 +5,7 @@ import { Container, Content } from './styles'
 import MaskGroupPNG from '../../assets/mask-group.png'
 import { RxCaretLeft, RxPlus, RxMinus } from 'react-icons/rx'
 import { Tag } from '../../components/Tag'
+import { Footer } from '../../components/Footer'
 
 export function Details() {
   return (
@@ -43,6 +44,7 @@ export function Details() {
           </div>
         </Content>
       </main>
+      <Footer />
     </Container>
   )
 }

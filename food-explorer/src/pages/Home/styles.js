@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   display: grid;
 
-  grid-template-rows: 114px auto;
+  grid-template-rows: 104px auto 75px;
 
   grid-template-areas:
     'header'
@@ -18,7 +18,7 @@ export const Container = styled.div`
     grid-area: content;
     overflow-y: auto;
 
-    padding: 24px 0px 0px;
+    padding: 30px 0px;
   }
 
   > footer {
@@ -28,28 +28,12 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 
   padding: 0 126px;
-
-  /* > section {
-    > div {
-      width: 100%;
-      display: flex;
-      gap: 27px;
-
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-  } */
 `
-// export const Footer = styled.footer`
-//   display: flex;
-//   background-color: red;
-// `
 
 export const Banner = styled.div`
   display: flex;
