@@ -11,13 +11,19 @@ export const Container = styled.div`
 
   grid-template-areas:
     'header'
-    'content';
+    'content'
+    'footer';
 
   > main {
     grid-area: content;
     overflow-y: auto;
 
-    padding: 24px 0px;
+    padding: 24px 0px 0px;
+  }
+
+  > footer {
+    grid-area: footer;
+    display: flex;
   }
 `
 
@@ -40,6 +46,10 @@ export const Content = styled.div`
     }
   } */
 `
+// export const Footer = styled.footer`
+//   display: flex;
+//   background-color: red;
+// `
 
 export const Banner = styled.div`
   display: flex;

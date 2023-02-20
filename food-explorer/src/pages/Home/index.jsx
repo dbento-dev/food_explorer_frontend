@@ -18,6 +18,7 @@ import bebida2Png from '../../assets/bebida2.png'
 import bebida3Png from '../../assets/bebida3.png'
 
 import { Card } from '../../components/Card'
+import { Footer } from '../../components/Footer'
 
 export function Home() {
   return (
@@ -348,6 +349,7 @@ export function Home() {
             </Slider>
           </Section>
         </Content>
+        <Footer />
       </main>
     </Container>
   )
