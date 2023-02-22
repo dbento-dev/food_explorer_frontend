@@ -8,6 +8,8 @@ import { Tag } from '../../components/Tag'
 import { Footer } from '../../components/Footer'
 
 export function Details() {
+  const isAdmin = true
+
   return (
     <Container>
       <Header />
@@ -33,13 +35,20 @@ export function Details() {
                 <Tag title="cebola" />
                 <Tag title="pepino" />
               </div>
-              <div>
-                <RxMinus />
-                <span>01</span>
-                <RxPlus />
 
-                <Button title="incluir ∙ R$ 25,00" />
-              </div>
+              {!isAdmin ? (
+                <div>
+                  <RxMinus />
+                  <span>01</span>
+                  <RxPlus />
+
+                  <Button title="incluir ∙ R$ 25,00" />
+                </div>
+              ) : (
+                <div>
+                  <Button title="Editar prato" />
+                </div>
+              )}
             </div>
           </div>
         </Content>
