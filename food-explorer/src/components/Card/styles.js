@@ -7,14 +7,19 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.COLORS.DARK_200};
 
   > div {
+    width: 100%;
+    height: 100%;
+
     display: flex;
     flex-direction: column;
+
     padding: 24px;
     gap: 16px;
+
     align-items: center;
+    justify-content: center;
 
     border-radius: 8px;
-    /* border: 1px solid red; */
 
     position: relative;
 

@@ -44,6 +44,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin
               />
               <Card
                 logo={maskGroup1Png}
