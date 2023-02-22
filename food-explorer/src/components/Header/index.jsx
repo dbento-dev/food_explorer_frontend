@@ -8,7 +8,7 @@ import { Container, ExplorerLogo, Logout } from './styles'
 import { Input } from '../Input'
 import { Button } from '../Button'
 
-export function Header({ isAdmin }) {
+export function Header({ isAdmin = false }) {
   return (
     <>
       <Container>
@@ -16,7 +16,7 @@ export function Header({ isAdmin }) {
           <img src={logoSVG} alt="Logo do Explorer Food" />
           <div>
             <span>food explorer</span>
-            <span>admin</span>
+            {isAdmin && <span>admin</span>}
           </div>
         </ExplorerLogo>
         <Input
@@ -24,7 +24,10 @@ export function Header({ isAdmin }) {
           icon={FiSearch}
         />
 
-        <Button title="Pedidos (0)" icon={TfiReceipt} />
+        <Button
+          title={isAdmin ? 'Novo prato' : 'Pedidos (0)'}
+          icon={!isAdmin && TfiReceipt}
+        />
 
         <Logout>
           <FiLogOut />

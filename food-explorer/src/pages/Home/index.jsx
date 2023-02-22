@@ -21,9 +21,10 @@ import { Card } from '../../components/Card'
 import { Footer } from '../../components/Footer'
 
 export function Home() {
+  const isAdmin = true
   return (
     <Container>
-      <Header isAdmin />
+      <Header isAdmin={isAdmin} />
 
       <main>
         <Content>
@@ -44,7 +45,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
-                isAdmin
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -52,6 +53,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -59,6 +61,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup}
@@ -66,6 +69,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -73,6 +77,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -80,6 +85,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup}
@@ -87,6 +93,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -94,6 +101,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -101,6 +109,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup}
@@ -108,6 +117,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -115,6 +125,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -122,6 +133,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup}
@@ -129,6 +141,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -136,6 +149,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -143,6 +157,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup}
@@ -150,6 +165,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup1Png}
@@ -157,6 +173,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={maskGroup3Png}
@@ -164,6 +181,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
             </Slider>
           </Section>
@@ -175,6 +193,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa2Png}
@@ -182,6 +201,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa3Png}
@@ -189,6 +209,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa1Png}
@@ -196,6 +217,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa2Png}
@@ -203,6 +225,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa3Png}
@@ -210,6 +233,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa1Png}
@@ -217,6 +241,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa2Png}
@@ -224,6 +249,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa3Png}
@@ -231,6 +257,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa1Png}
@@ -238,6 +265,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa2Png}
@@ -245,6 +273,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={sobremesa3Png}
@@ -252,6 +281,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
             </Slider>
           </Section>
@@ -263,6 +293,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida2Png}
@@ -270,6 +301,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida3Png}
@@ -277,6 +309,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida1Png}
@@ -284,6 +317,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida2Png}
@@ -291,6 +325,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida3Png}
@@ -298,6 +333,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida1Png}
@@ -305,6 +341,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida2Png}
@@ -312,6 +349,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida3Png}
@@ -319,6 +357,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida1Png}
@@ -326,6 +365,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida2Png}
@@ -333,6 +373,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
               <Card
                 logo={bebida3Png}
@@ -340,6 +381,7 @@ export function Home() {
                 description="Massa fresca com camarões e pesto."
                 price="R$ 29,90"
                 className="item"
+                isAdmin={isAdmin}
               />
             </Slider>
           </Section>

@@ -12,7 +12,7 @@ export function Details() {
 
   return (
     <Container>
-      <Header />
+      <Header isAdmin={isAdmin} />
 
       <main>
         <Content>

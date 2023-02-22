@@ -54,7 +54,7 @@ export const ExplorerLogo = styled.div`
       color: ${({ theme }) => theme.COLORS.LIGHT_100};
     }
 
-    > span:last-child {
+    > span:nth-child(2) {
       font-size: 12px;
       font-weight: 400;
       font-family: 'Roboto', sans-serif;
