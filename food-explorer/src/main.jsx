@@ -9,15 +9,17 @@ import { Details } from './pages/Details'
 import { SignIn } from './pages/SignIn'
 import { SignUp } from './pages/SignUp'
 import { Home } from './pages/Home'
+import { AddDish } from './pages/AddDish'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Details />
+      {/* <Details /> */}
       {/* <SignIn /> */}
       {/* <SignUp /> */}
       {/* <Home /> */}
+      <AddDish />
     </ThemeProvider>
   </React.StrictMode>
 )
