@@ -7,27 +7,22 @@ export const Container = styled.div`
 
   display: grid;
 
-  grid-template-rows: 104px auto 75px;
+  grid-template-rows: 104px auto;
 
   grid-template-areas:
     'header'
-    'content'
-    'footer';
+    'content';
 
   > main {
     grid-area: content;
     overflow-y: auto;
 
-    padding: 30px 0px;
-  }
-
-  > footer {
-    grid-area: footer;
-    display: flex;
+    padding: 30px 0px 0px;
   }
 `
 
 export const Content = styled.div`
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

@@ -38,319 +38,313 @@ export function Home() {
 
           <Section title="Refeições">
             <Slider>
-              <>
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={maskGroup3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-              </>
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={maskGroup3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
             </Slider>
           </Section>
           <Section title="Sobremesas">
             <Slider>
-              <>
-                <Card
-                  logo={sobremesa1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={sobremesa3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-              </>
+              <Card
+                logo={sobremesa1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={sobremesa3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
             </Slider>
           </Section>
           <Section title="Bebidas">
             <Slider>
-              <>
-                <Card
-                  logo={bebida1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida1Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida2Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-                <Card
-                  logo={bebida3Png}
-                  title="Spaguetti Gambe "
-                  description="Massa fresca com camarões e pesto."
-                  price="R$ 29,90"
-                  className="item"
-                />
-              </>
+              <Card
+                logo={bebida1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida1Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida2Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
+              <Card
+                logo={bebida3Png}
+                title="Spaguetti Gambe "
+                description="Massa fresca com camarões e pesto."
+                price="R$ 29,90"
+                className="item"
+              />
             </Slider>
           </Section>
         </Content>
+        <Footer />
       </main>
-      <Footer />
     </Container>
   )
 }
