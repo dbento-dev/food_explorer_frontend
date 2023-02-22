@@ -32,21 +32,35 @@ export const Container = styled.header`
 `
 export const ExplorerLogo = styled.div`
   width: 100%;
-  height: 48px;
+
   display: flex;
-  align-items: center;
   gap: 10px;
+
+  justify-content: center;
 
   > img {
     width: 30px;
     height: 30px;
   }
 
-  > span {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    color: ${({ theme }) => theme.COLORS.LIGHT_100};
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    > span:first-child {
+      font-size: 24px;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+      color: ${({ theme }) => theme.COLORS.LIGHT_100};
+    }
+
+    > span:last-child {
+      font-size: 12px;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+      color: ${({ theme }) => theme.COLORS.BLUE_100};
+      text-align: end;
+    }
   }
 `
 

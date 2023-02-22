@@ -8,13 +8,16 @@ import { Container, ExplorerLogo, Logout } from './styles'
 import { Input } from '../Input'
 import { Button } from '../Button'
 
-export function Header() {
+export function Header({ isAdmin }) {
   return (
     <>
       <Container>
         <ExplorerLogo>
           <img src={logoSVG} alt="Logo do Explorer Food" />
-          <span>food explorer</span>
+          <div>
+            <span>food explorer</span>
+            <span>admin</span>
+          </div>
         </ExplorerLogo>
         <Input
           placeholder="Busque por pratos ou ingredientes"
