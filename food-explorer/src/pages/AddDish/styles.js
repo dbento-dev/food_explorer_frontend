@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   display: grid;
 
-  grid-template-rows: 104px auto;
+  grid-template-rows: 104px auto 75px;
 
   grid-template-areas:
     'header'
@@ -51,4 +51,79 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  > .row {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+
+    > .dish-photo {
+      width: 15%;
+    }
+
+    > .name {
+      width: 50%;
+    }
+
+    > .category {
+      width: 35%;
+    }
+
+    > .ingredients-list {
+      width: 80%;
+    }
+
+    > .price {
+      width: 20%;
+    }
+
+    > .description {
+      width: 100%;
+    }
+  }
+
+  > .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    > label {
+      margin-bottom: 5px;
+    }
+
+    > input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  .ingredients-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ingredients {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    padding: 12px;
+
+    background-color: ${({ theme }) => theme.COLORS.DARK_900};
+  }
+
+  > button {
+    width: 175px;
+    align-self: flex-end;
+  }
 `

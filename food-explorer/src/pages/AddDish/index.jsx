@@ -8,6 +8,7 @@ import { Footer } from '../../components/Footer'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { TextArea } from '../../components/TextArea'
+import { IngredientsItem } from '../../components/IngredientsItem'
 
 export function AddDish() {
   const isAdmin = true
@@ -21,39 +22,62 @@ export function AddDish() {
           <h2>Adicionar prato</h2>
 
           <Form>
-            <div>
-              <label htmlFor="dish-photo">Imagem do prato</label>
-              <Input
-                name="dish-photo"
-                placeholder="Selecione imagem"
-                type="text"
-              />
-              <label htmlFor="name">Nome</label>
-              <Input name="name" placeholder="Ex.: Salada Ceasar" type="text" />
-              <label htmlFor="category">Categoria</label>
-              <Input name="category" placeholder="Selecione" type="text" />
-            </div>
-            <div>
-              <label htmlFor="ingredients">Ingredientes</label>
-              <Input name="ingredients" type="text" />
-              <label htmlFor="price">Preço</label>
-              <Input name="price" placeholder="R$ 00,00" type="text" />
-            </div>
-
-            <div>
-              <TextArea
-                placeholder="Fale brevemente sobre o prato, seus ingredientes e composição"
-                label="Descrição"
-              />
+            <div className="row">
+              <div className="form-group dish-photo">
+                <label htmlFor="dish-photo">Imagem do prato</label>
+                <Input
+                  name="dish-photo"
+                  placeholder="Selecione imagem"
+                  type="text"
+                />
+              </div>
+              <div className="form-group name">
+                <label htmlFor="name">Nome</label>
+                <Input
+                  name="name"
+                  placeholder="Ex.: Salada Ceasar"
+                  type="text"
+                />
+              </div>
+              <div className="form-group category">
+                <label htmlFor="category">Categoria</label>
+                <Input name="category" placeholder="Selecione" type="text" />
+              </div>
             </div>
 
-            <div>
-              <Button title="Adicionar prato" />
+            <div className="row">
+              <div className="form-group ingredients-list">
+                <div className="ingredients-list">
+                  <span>Ingredientes</span>
+                  <div className="ingredients">
+                    <IngredientsItem value="Faria de trigo" />
+                    <IngredientsItem value="Faria de trigo" />
+
+                    <IngredientsItem isNew placeholder="Adicionar" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="form-group price">
+                <label htmlFor="price">Preço</label>
+                <Input name="price" placeholder="R$ 00,00" type="text" />
+              </div>
             </div>
+
+            <div className="row">
+              <div className="form-group description">
+                <TextArea
+                  placeholder="Fale brevemente sobre o prato, seus ingredientes e composição"
+                  label="Descrição"
+                />
+              </div>
+            </div>
+
+            <Button title="Adicionar prato" />
           </Form>
         </Content>
-        <Footer />
       </main>
+      <Footer />
     </Container>
   )
 }
