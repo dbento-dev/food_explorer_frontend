@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-export const Container = styled.button`
+export const Container = styled(Link)`
   background: none;
   border: none;
   font-size: 24px;
@@ -8,7 +9,7 @@ export const Container = styled.button`
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   > svg {
     font-size: 32px;

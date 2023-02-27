@@ -18,7 +18,7 @@ export function AddDish() {
 
       <main>
         <Content>
-          <ButtonText title="voltar" icon={RxCaretLeft} />
+          <ButtonText title="voltar" icon={RxCaretLeft} to="/" />
           <h2>Adicionar prato</h2>
 
           <Form>

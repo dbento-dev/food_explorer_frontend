@@ -16,7 +16,7 @@ export function Details() {
 
       <main>
         <Content>
-          <ButtonText title="voltar" icon={RxCaretLeft} />
+          <ButtonText title="voltar" icon={RxCaretLeft} to="/" />
 
           <div>
             <div>

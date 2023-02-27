@@ -2,6 +2,7 @@ import { Background, Container, Form } from './styles'
 
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom'
 
 export function SignUp() {
   return (
@@ -34,7 +35,7 @@ export function SignUp() {
 
           <Button title="Criar conta" />
 
-          <a href="#">Já tenho uma conta</a>
+          <Link to="/">Já tenho uma conta</Link>
         </div>
       </Form>
     </Container>
